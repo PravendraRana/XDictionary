@@ -29,7 +29,7 @@ const DictionaryApp = () => {
                 onChange={(e) => setWord(e.target.value)}
             />
             <button onClick={handleClick}>Search</button>
-            <h3 style={{ marginTop: 0 }}>Defination:</h3>
+            <h3 style={{ marginTop: 0 }}>Definition:</h3>
             <strong>{definition}</strong>
         </div>
     );
