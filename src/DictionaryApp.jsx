@@ -30,7 +30,7 @@ const DictionaryApp = () => {
             />
             <button onClick={handleClick}>Search</button>
             <h3 style={{ marginTop: 0 }}>Definition:</h3>
-            <strong>{definition}</strong>
+            <p>{definition}</p>
         </div>
     );
 };
